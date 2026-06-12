@@ -1,0 +1,1 @@
+add_executable(ch00_setup main.cpp)
