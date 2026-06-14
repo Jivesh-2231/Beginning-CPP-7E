@@ -2,6 +2,7 @@
 
 int main()
 {
-    std::cout << "Chapter 01 works\n";
+    int answer{42};
+    std::cout << "The answer to life, the universe and everything is " << answer << std::endl;
     return 0;
 }

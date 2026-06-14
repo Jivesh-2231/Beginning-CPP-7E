@@ -18,6 +18,7 @@ x64/
 
 # VS Code
 .vscode/
+*.exe
 
 # CMake
 CMakeFiles/
