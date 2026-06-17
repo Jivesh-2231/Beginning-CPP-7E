@@ -1,0 +1,1 @@
+add_executable(ch02_data_types example.cpp)
