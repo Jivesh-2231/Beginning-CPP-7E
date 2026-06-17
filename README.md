@@ -47,7 +47,7 @@ cmake --build build
 ## Progress
 
 - [x] Chapter 00 - Setup
-- [ ] Chapter 01 - Basics
+- [x] Chapter 01 - Basics
 - [ ] Chapter 02 - Variables & Types
 - [ ] Chapter 03 - Control Flow
 - [ ] Chapter 04 - Functions
