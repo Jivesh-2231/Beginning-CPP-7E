@@ -18,5 +18,12 @@ int main(){
     unsigned long age {30UL}; //here UL are suffix for U- unsigned and L- long
 
     //hexadecimal literal
+    unsigned int color_code{0xFF0000}; //hexadecimal literal for red color
+
+    // compound arithmetic expressions
+    long width{4};
+    long length{5};
+    long area{width * length};
+    long perimeter{(width + length) * 2};
     
 }
