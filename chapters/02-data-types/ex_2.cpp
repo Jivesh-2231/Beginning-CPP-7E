@@ -14,5 +14,11 @@ int main(){
     std::cout << "The distance corresponds to " << total_inches << "inches.\n";
     
     //convert distance from inches to yards, feet
-    
+    std::cout << "Enter distance in inches ";
+    std::cin >> total_inches;
+    feet = total_inches / inches_per_foot;
+    inches = total_inches % inches_per_foot;
+    yards = feet / feet_per_yard;
+    feet = feet % feet_per_yard;
+    std::cout << "This distance corresponds to " << yards << " yards " << feet << " feet " << inches << " inches.\n";
 }
